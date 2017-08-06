@@ -5,7 +5,7 @@
   <link href="/yiheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://winnerchen.github.io/"/>
-  <updated>2017-08-06T12:48:52.808Z</updated>
+  <updated>2017-08-06T13:25:47.439Z</updated>
   <id>https://winnerchen.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://winnerchen.github.io/2017/08/06/Git-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/"/>
     <id>https://winnerchen.github.io/2017/08/06/Git-从零开始/</id>
     <published>2017-08-06T12:27:00.000Z</published>
-    <updated>2017-08-06T12:48:52.808Z</updated>
+    <updated>2017-08-06T13:25:47.439Z</updated>
     
     <content type="html"><![CDATA[<h1 id="初识GitHub"><a href="#初识GitHub" class="headerlink" title="初识GitHub"></a>初识GitHub</h1><h2 id="1-什么是GitHub"><a href="#1-什么是GitHub" class="headerlink" title="1. 什么是GitHub"></a>1. 什么是GitHub</h2><p>GitHub是一个面向开源及私有软件项目的托管平台,它只支持git这一种版本管理技术,故名GitHub。对于大部分用户来说，GitHub是一个托管代码的地方，用于备份其本地仓库的代码。</p>
 <h2 id="2-GitHub和Git的区别"><a href="#2-GitHub和Git的区别" class="headerlink" title="2.GitHub和Git的区别"></a>2.GitHub和Git的区别</h2><p>本人刚开始学习编程的时候也分不清两者的区别，以为GitHub就是Git，但是它们其实是有本质上的区别的。<br><a id="more"></a></p>
@@ -46,6 +46,20 @@
 <li>个人简历</li>
 </ul>
 <p>如果你有一个活跃的 GitHub账号，上面有自己不错的开源项目，还经常给别的开源项目提问题，push 代码，那么你找工作将是一个非常大的优势，现在程序员的招聘很多公司都很看中你 GitHub 账号，某种意义上 GitHub就可以算是你的简历了。而且不仅国内，很多国外的科技公司都会通过 GitHub 来寻找优秀的人才。</p>
+<h1 id="GIT快速入门"><a href="#GIT快速入门" class="headerlink" title="GIT快速入门"></a>GIT快速入门</h1><p>关于GitHub的介绍就到这里了，本篇文章的目的是让读者能快速入门Git，运用Git命令行操作本地仓库，并同步到远程仓库。下文会先介绍一些最基本的Git知识和常用的Git操作。</p>
+<h2 id="1-什么是Git"><a href="#1-什么是Git" class="headerlink" title="1. 什么是Git"></a>1. 什么是Git</h2><p>上文说了，Git是一款新时代的版本控制工具，那么版本控制到底是什么意思呢？如何去理解版本控制工具呢？下面几个例子大家可以思考一下。</p>
+<p>在软件开发中，源代码是最重要的，那么对于源代码的管理也就非常重要：</p>
+<p>比如为了防止代码的丢失，肯定本地机器与远程服务器都要存放一份，而且还需要有一套机<br>制让本地可以跟远程同步；</p>
+<p>又比如我们经常是好几个人做同一个项目，都要对一份代码做更改，这个时候需要大家互不<br>影响，又需要各自可以同步别人的代码；</p>
+<p>又比如我们开发的时候免不了有bug，有时候刚发布的功能就出现了严重的bug，这个时候需<br>要紧急对代码进行还原；</p>
+<p>又比如随着我们版本迭代的功能越来越多，但是我们需要清楚的知道历史每一个版本的代码<br>更改记录，甚至知道每个人历史提交代码的情况；</p>
+<p>等等等类似以上的情况，这些都是版本控制系统能解决的问题。所以说，版本控制是一种记<br>录一个或若干文件内容变化，以便将来查阅特定版本修订情况的系统，对于软件开发领域来<br>说版本控制是最重要的一环，而 Git 毫无疑问是当下最流行、最好用的版本控制系统。</p>
+<h2 id="2-Git安装"><a href="#2-Git安装" class="headerlink" title="2. Git安装"></a>2. Git安装</h2><p>上面说了，Git 是一个版本控制系统，你也可以理解成是一个工具，跟 Java 类似，使用之前<br>必须得先下载安装，所以第一步必须要安装，我用的是 Mac ， Mac 上其实系统自带 Git 的，<br>不过这里统一提供一下各平台的安装方式，这部分就不过多介绍，相信大家这里搞的定。</p>
+<ul>
+<li>Mac：<a href="https://sourceforge.net/projects/git-osx-installer/" target="_blank" rel="external">https://sourceforge.net/projects/git-osx-installer/</a></li>
+<li>Windows：<a href="https://git-for-windows.github.io/" target="_blank" rel="external">https://git-for-windows.github.io/</a></li>
+<li>Linux：apt-get install git</li>
+</ul>
 ]]></content>
     
     <summary type="html">
