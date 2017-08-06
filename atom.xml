@@ -5,7 +5,7 @@
   <link href="/yiheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://winnerchen.github.io/"/>
-  <updated>2017-08-06T07:59:47.376Z</updated>
+  <updated>2017-08-06T09:40:47.346Z</updated>
   <id>https://winnerchen.github.io/</id>
   
   <author>
@@ -14,6 +14,71 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown基础教程</title>
+    <link href="https://winnerchen.github.io/2017/08/06/Markdown%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    <id>https://winnerchen.github.io/2017/08/06/Markdown基础教程/</id>
+    <published>2017-08-06T09:39:48.000Z</published>
+    <updated>2017-08-06T09:40:47.346Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h1><p>为了获得上面的 “<code>1. 标题</code>”， 在 Markdown 编辑器里输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># 1. 标题</div></pre></td></tr></table></figure>
+<p>“<code>#</code>” 后最好加个空格。除此之外，还有 5 级标题，依次有不同的字体大小，即</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">## 二级标题</div><div class="line">### 三级标题</div><div class="line">#### 四级标题</div><div class="line">##### 五级标题</div><div class="line">###### 六级标题</div></pre></td></tr></table></figure>
+<p>这样就有：</p>
+<h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<h1 id="2-加粗，斜体"><a href="#2-加粗，斜体" class="headerlink" title="2. 加粗，斜体"></a>2. 加粗，斜体</h1><p>最常用的强调方式，那就是 <strong>加粗</strong> 了，你得这样：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">最常用的强调方式，那就是 **加粗** 了，你得这样：</div></pre></td></tr></table></figure>
+<p>通常我喜欢在 “<code>**加粗的部分**</code>” 旁边各加一个空格，当然你也可以不这样。<br>斜体则多用在于书名，比如：我从来没看过 <em>Jane Eyre</em></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">斜体则多用在于书名，比如：我从来没看过 *Jane Eyre*</div></pre></td></tr></table></figure>
+<p>但中文的斜体我觉得真是不美，像：《<em>简 · 爱</em>》，一般还是别用了。</p>
+<hr>
+<h1 id="3-层次"><a href="#3-层次" class="headerlink" title="3. 层次"></a>3. 层次</h1><p>比如写个读书笔记，你得</p>
+<h4 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h4><ol>
+<li>第一节</li>
+</ol>
+<ul>
+<li>第二节(你不用敲 “2”，自动就有了）<ul>
+<li>第一小节（推荐每层次缩进四个空格）<ul>
+<li>小小节 1</li>
+<li>小小节 2</li>
+</ul>
+</li>
+<li>第二小节</li>
+</ul>
+</li>
+</ul>
+<p>也不难：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">#### 第一章</div><div class="line"></div><div class="line">1. 第一节</div><div class="line">* 第二节(你不用敲 &quot;2&quot;，自动就有了）</div><div class="line">    * 第一小节（推荐每层次缩进四个空格）</div><div class="line">        * 小小节 1</div><div class="line">        * 小小节 2</div><div class="line">    * 第二小节</div></pre></td></tr></table></figure>
+<p>“<code>*</code>” 后面要加空格，这是必须的，除了 <code>*</code>，还可以使用 <code>+</code> 或者 <code>-</code>。</p>
+<p>如果格式出现问题，多加个空行，一般就好了。</p>
+<hr>
+<h1 id="4-链接，图片"><a href="#4-链接，图片" class="headerlink" title="4. 链接，图片"></a>4. 链接，图片</h1><p>你：我没读过 <em>Jane Eyre</em><br>我：以后别跟我说话！<br>你：。。。<br>我：我也没读过，但是， <a href="http://book.douban.com/subject/1141406/" target="_blank" rel="external"><strong><em>Jane Eyre</em></strong></a> is not just <strong><em>Jane Eyre</em></strong><br><img src="http://img3.douban.com/mpic/s1108264.jpg" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">我：我也没读过，但是， [***Jane Eyre***](http://book.douban.com/subject/1141406/) is not just ***Jane Eyre***</div><div class="line">![](http://img3.douban.com/mpic/s1108264.jpg)</div></pre></td></tr></table></figure>
+<hr>
+<h1 id="5-其他"><a href="#5-其他" class="headerlink" title="5. 其他"></a><a href="chrome://not-a-link" target="_blank" rel="external">5. 其他</a></h1><p>你可能还没注意到本文每部分之间的分割线和 <code>其他</code> 的链接其实没有链接<br>我爱 <code>分割线</code>， 我爱 <a href="chrome://not-a-link" target="_blank" rel="external"><strong>链接</strong></a>，哪怕它只有颜色~</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line"></div><div class="line"># [5. 其他][null-link]</div><div class="line"></div><div class="line">你可能还没注意到本文每部分之间的分割线和 `其他` 的链接其实没有链接</div><div class="line">我爱 `分割线`， 我爱 [**链接**][null-link]，哪怕它只有颜色~</div><div class="line"></div><div class="line">[null-link]: chrome://not-a-link</div></pre></td></tr></table></figure>
+<p>“<code>---</code>” 的上下最好各空一行</p>
+<hr>
+<p><strong>P.S.</strong> 补充一种高端的链接: <a href="http://www.google.com.sg" title="Google Sg 更快，更好用。好，现在单击吧" target="_blank" rel="external">鼠标移过来，<strong>先别单击</strong> ~</a></p>
+<p>代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">**P.S.** 补充一种高端的链接: [鼠标移过来，**先别单击** ~][hover]</div><div class="line">[hover]: http://www.google.com.sg &quot;Google Sg 更快，更好用。好，现在单击吧&quot;</div></pre></td></tr></table></figure>
+<p>（可惜 Google 被墙了）</p>
+<p><strong>P.P.S.</strong> 图片链接：(点击图片可跳转）<br><a href="http://book.douban.com/subject/1141406/" target="_blank" rel="external"><img src="http://img3.douban.com/mpic/s1108264.jpg" alt=""></a></p>
+<p>代码如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[![][jane-eyre-pic]][jane-eyre-douban]</div><div class="line">[jane-eyre-pic]: http://img3.douban.com/mpic/s1108264.jpg</div><div class="line">[jane-eyre-douban]: http://book.douban.com/subject/1141406/</div></pre></td></tr></table></figure></p>
+<p>作者：Gnat</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;1-标题&quot;&gt;&lt;a href=&quot;#1-标题&quot; class=&quot;headerlink&quot; title=&quot;1. 标题&quot;&gt;&lt;/a&gt;1. 标题&lt;/h1&gt;&lt;p&gt;为了获得上面的 “&lt;code&gt;1. 标题&lt;/code&gt;”， 在 Markdown 编辑器里输入：&lt;/p&gt;
+&lt;figure
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello Hexo</title>
