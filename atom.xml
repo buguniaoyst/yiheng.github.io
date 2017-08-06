@@ -5,7 +5,7 @@
   <link href="/yiheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://winnerchen.github.io/"/>
-  <updated>2017-08-06T09:40:47.346Z</updated>
+  <updated>2017-08-06T12:27:18.271Z</updated>
   <id>https://winnerchen.github.io/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git:从零开始</title>
+    <link href="https://winnerchen.github.io/2017/08/06/Git-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/"/>
+    <id>https://winnerchen.github.io/2017/08/06/Git-从零开始/</id>
+    <published>2017-08-06T12:27:00.000Z</published>
+    <updated>2017-08-06T12:27:18.271Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="初识GIT"><a href="#初识GIT" class="headerlink" title="初识GIT"></a>初识GIT</h1><h2 id="1-什么是GitHub"><a href="#1-什么是GitHub" class="headerlink" title="1. 什么是GitHub"></a>1. 什么是GitHub</h2><p>GitHub是一个面向开源及私有软件项目的托管平台,它只支持git这一种版本管理技术,故名GitHub。对于大部分用户来说，GitHub是一个托管代码的地方，用于备份其本地仓库的代码。</p>
+<h2 id="2-GitHub和Git的区别"><a href="#2-GitHub和Git的区别" class="headerlink" title="2.GitHub和Git的区别"></a>2.GitHub和Git的区别</h2><p>本人刚开始学习编程的时候也分不清两者的区别，以为GitHub就是Git，但是它们其实是有本质上的区别的。</p>
+<p>Git是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。Git是大名鼎鼎的Linux发明者Linus Torvalds 开发的。不管是想要学习GitHub，还是从事编程相关行业的工作，git都是一门必须要学习的技术，所以从现在开始学习和了解git技术吧！</p>
+<p>而GitHub已经在上面介绍过了，是一个基于git技术的版本托管平台。所以Git知识GitHub上面用来管理项目的一个工具而已，而GitHub的功能则远比这个强大。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;初识GIT&quot;&gt;&lt;a href=&quot;#初识GIT&quot; class=&quot;headerlink&quot; title=&quot;初识GIT&quot;&gt;&lt;/a&gt;初识GIT&lt;/h1&gt;&lt;h2 id=&quot;1-什么是GitHub&quot;&gt;&lt;a href=&quot;#1-什么是GitHub&quot; class=&quot;headerlink
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Markdown基础教程</title>
