@@ -63,13 +63,13 @@
     <link href="https://winnerchen.github.io/2017/08/06/Markdown%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
     <id>https://winnerchen.github.io/2017/08/06/Markdown基础教程/</id>
     <published>2017-08-06T09:39:48.000Z</published>
-    <updated>2017-08-06T09:40:47.346Z</updated>
+    <updated>2017-08-06T12:49:46.496Z</updated>
     
     <content type="html"><![CDATA[<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h1><p>为了获得上面的 “<code>1. 标题</code>”， 在 Markdown 编辑器里输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"># 1. 标题</div></pre></td></tr></table></figure>
 <p>“<code>#</code>” 后最好加个空格。除此之外，还有 5 级标题，依次有不同的字体大小，即</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">## 二级标题</div><div class="line">### 三级标题</div><div class="line">#### 四级标题</div><div class="line">##### 五级标题</div><div class="line">###### 六级标题</div></pre></td></tr></table></figure>
-<p>这样就有：</p>
+<p>这样就有：<br><a id="more"></a></p>
 <h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
 <h1 id="2-加粗，斜体"><a href="#2-加粗，斜体" class="headerlink" title="2. 加粗，斜体"></a>2. 加粗，斜体</h1><p>最常用的强调方式，那就是 <strong>加粗</strong> 了，你得这样：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">最常用的强调方式，那就是 **加粗** 了，你得这样：</div></pre></td></tr></table></figure>
@@ -116,7 +116,10 @@
     <summary type="html">
     
       &lt;h1 id=&quot;1-标题&quot;&gt;&lt;a href=&quot;#1-标题&quot; class=&quot;headerlink&quot; title=&quot;1. 标题&quot;&gt;&lt;/a&gt;1. 标题&lt;/h1&gt;&lt;p&gt;为了获得上面的 “&lt;code&gt;1. 标题&lt;/code&gt;”， 在 Markdown 编辑器里输入：&lt;/p&gt;
-&lt;figure
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;# 1. 标题&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;“&lt;code&gt;#&lt;/code&gt;” 后最好加个空格。除此之外，还有 5 级标题，依次有不同的字体大小，即&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;## 二级标题&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;### 三级标题&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;#### 四级标题&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;##### 五级标题&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;###### 六级标题&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;这样就有：&lt;br&gt;
     
     </summary>
     
