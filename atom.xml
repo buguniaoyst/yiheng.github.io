@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Chen&#39;s Blog</title>
   
-  <link href="/yiheng.github.io/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://winnerchen.github.io/"/>
+  <link href="https://winnerchen.github.io/yiheng.github.io/"/>
   <updated>2017-08-06T13:35:13.902Z</updated>
-  <id>https://winnerchen.github.io/</id>
+  <id>https://winnerchen.github.io/yiheng.github.io/</id>
   
   <author>
     <name>Yiheng Chen</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>IDEA5分钟，Eclipse2小时</title>
-    <link href="https://winnerchen.github.io/2017/08/06/IDEA5%E5%88%86%E9%92%9F%EF%BC%8CEclipse2%E5%B0%8F%E6%97%B6/"/>
-    <id>https://winnerchen.github.io/2017/08/06/IDEA5分钟，Eclipse2小时/</id>
+    <link href="https://winnerchen.github.io/yiheng.github.io/2017/08/06/IDEA5%E5%88%86%E9%92%9F%EF%BC%8CEclipse2%E5%B0%8F%E6%97%B6/"/>
+    <id>https://winnerchen.github.io/yiheng.github.io/2017/08/06/IDEA5分钟，Eclipse2小时/</id>
     <published>2017-08-06T13:30:51.000Z</published>
     <updated>2017-08-06T13:35:13.902Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>Git:从零开始</title>
-    <link href="https://winnerchen.github.io/2017/08/06/Git-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/"/>
-    <id>https://winnerchen.github.io/2017/08/06/Git-从零开始/</id>
+    <link href="https://winnerchen.github.io/yiheng.github.io/2017/08/06/Git-%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/"/>
+    <id>https://winnerchen.github.io/yiheng.github.io/2017/08/06/Git-从零开始/</id>
     <published>2017-08-06T12:27:00.000Z</published>
     <updated>2017-08-06T13:25:47.439Z</updated>
     
@@ -97,8 +97,8 @@
   
   <entry>
     <title>Markdown基础教程</title>
-    <link href="https://winnerchen.github.io/2017/08/06/Markdown%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
-    <id>https://winnerchen.github.io/2017/08/06/Markdown基础教程/</id>
+    <link href="https://winnerchen.github.io/yiheng.github.io/2017/08/06/Markdown%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/"/>
+    <id>https://winnerchen.github.io/yiheng.github.io/2017/08/06/Markdown基础教程/</id>
     <published>2017-08-06T09:39:48.000Z</published>
     <updated>2017-08-06T12:49:46.496Z</updated>
     
@@ -165,8 +165,8 @@
   
   <entry>
     <title>Hello Hexo</title>
-    <link href="https://winnerchen.github.io/2017/08/06/Hello-Hexo/"/>
-    <id>https://winnerchen.github.io/2017/08/06/Hello-Hexo/</id>
+    <link href="https://winnerchen.github.io/yiheng.github.io/2017/08/06/Hello-Hexo/"/>
+    <id>https://winnerchen.github.io/yiheng.github.io/2017/08/06/Hello-Hexo/</id>
     <published>2017-08-06T07:58:32.000Z</published>
     <updated>2017-08-06T07:59:47.376Z</updated>
     
